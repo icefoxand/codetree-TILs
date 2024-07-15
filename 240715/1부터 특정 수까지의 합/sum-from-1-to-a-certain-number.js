@@ -3,7 +3,7 @@ function sol(n) {
     for (let i = 1; i<= n; i++){
         sum += i
     };
-    return sum/10;
+    return Math.trunc(sum/10);
 };
 
 const fs = require("fs");
